@@ -43,3 +43,17 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Android signing & local config (절대 커밋 금지)
+android/local.properties
+android/key.properties
+*.jks
+*.keystore
+
+# Firebase / Google 서비스 키 (절대 커밋 금지)
+google-services.json
+ios/GoogleService-Info.plist
+GoogleService-Info.plist
+
+# Flutter plugins list (자동 생성)
+.flutter-plugins
