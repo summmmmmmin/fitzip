@@ -1,0 +1,71 @@
+name: fitzip
+description: "체형 분석 & 스타일링 추천 앱"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # 상태관리
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # 네트워크
+  dio: ^5.7.0
+  retrofit: ^4.4.1
+
+  # 모델 (불변 객체 + JSON)
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+
+  # 라우팅
+  go_router: ^14.6.2
+
+  # 보안 스토리지 (토큰 저장)
+  flutter_secure_storage: ^9.2.2
+
+  # 의존성 주입
+  get_it: ^8.0.2
+
+  # Either 패턴
+  dartz: ^0.10.1
+
+  # 로컬 캐시
+  hive_flutter: ^1.1.0
+
+  # 카메라
+  camera: ^0.11.0+2
+  image_picker: ^1.1.2
+
+  # 이미지 처리
+  image: ^4.2.0
+
+  # UI
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  lottie: ^3.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # 코드 생성
+  build_runner: ^2.4.13
+  riverpod_generator: ^2.6.1
+  freezed: ^2.5.7
+  json_serializable: ^6.8.0
+  retrofit_generator: ^9.1.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/silhouettes/
+    - assets/animations/

@@ -1,0 +1,25 @@
+# 환경변수 (절대 커밋 금지)
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Gradle
+fitzip-server/.gradle/
+fitzip-server/build/
+
+# Flutter
+fitzip/.dart_tool/
+fitzip/.flutter-plugins
+fitzip/.flutter-plugins-dependencies
+fitzip/build/
+
+# Docker volumes
+mysql_data/
+redis_data/
